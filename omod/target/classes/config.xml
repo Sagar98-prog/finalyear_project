@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.2">
+
+	<!-- Module Properties -->
+	<id>mapperoverridedemo</id>
+	<name>Request Mapper Override Demo Module</name>
+	<version>1.0.1-SNAPSHOT</version>
+	<package>org.openmrs.module.mapperoverridedemo</package>
+	<author>ssmusoke</author>
+	<description>
+		Helps to show case how to override requests to pages and fragments using the RequestMapper classes
+	</description>
+	<updateURL>https://modules.openmrs.org/modules/download/mapperoverridedemo/update.rdf</updateURL>
+	<require_version>1.9.9</require_version>
+	<!-- / Module Properties -->
+
+
+	<!-- Required Modules -->
+	<require_modules>
+																											
+
+		<require_module version="2.8">
+			org.openmrs.module.appframework
+		</require_module>
+		<require_module version="1.5">
+			org.openmrs.module.appui
+		</require_module>
+		<require_module version="1.13">
+			org.openmrs.module.emrapi
+		</require_module>
+		<require_module version="3.6">
+			org.openmrs.module.uiframework
+		</require_module>
+		<require_module version="2.3">
+			org.openmrs.module.referenceapplication
+		</require_module>
+			
+	</require_modules>
+	<!-- / Required Modules -->
+	
+	<!-- Module Activator -->
+	<activator>org.openmrs.module.mapperoverridedemo.RequestMapperDemoActivator</activator>
+
+
+	<!-- Maps hibernate file's, if present -->
+	<mappingFiles>
+
+	</mappingFiles>
+
+	<!-- Internationalization -->
+	<!-- All message codes should start with mapperoverridedemo. -->
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+	<messages>
+		<lang>fr</lang>
+		<file>messages_fr.properties</file>
+	</messages>
+	<messages>
+		<lang>es</lang>
+		<file>messages_es.properties</file>
+	</messages>
+	<!-- /Internationalization -->
+
+</module>
+

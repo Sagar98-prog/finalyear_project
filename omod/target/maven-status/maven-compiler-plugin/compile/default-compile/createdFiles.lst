@@ -1,0 +1,10 @@
+org\openmrs\module\mapperoverridedemo\page\controller\DemoLoginPageController.class
+org\openmrs\module\mapperoverridedemo\fragment\controller\DemoHeaderFragmentController.class
+org\openmrs\module\mapperoverridedemo\page\controller\otpController.class
+org\openmrs\module\mapperoverridedemo\page\controller\RestControllerEndPoint.class
+org\openmrs\module\mapperoverridedemo\businesslogic\HoldAuthState.class
+org\openmrs\module\mapperoverridedemo\page\DemoLoginPageRequestMapper.class
+org\openmrs\module\mapperoverridedemo\businesslogic\FetchDoctorData.class
+org\openmrs\module\mapperoverridedemo\fragment\DemoHeaderFragmentRequestMapper.class
+org\openmrs\module\mapperoverridedemo\businesslogic\RandomKeyGenerator.class
+org\openmrs\module\mapperoverridedemo\businesslogic\FetchAmbulanceData.class
